@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>lab 1 Q4</title>
+
+</head>
+<script type="text/javascript">
+
+	function example() {
+
+		var i = 0;
+		var j = 0;
+		var row = 101;
+		var col = 101;
+
+
+		
+		for ( i = 0; i<=col; i++)
+		{
+
+			var boxs = document.createElement("div");
+		
+			for ( j  = 0; j<=row; j++)	
+			{
+                
+				if (j == 0)
+				{
+
+					 var k = Math.floor(Math.random()*2);
+					 if(k == 1)
+					 {
+
+					boxs.setAttribute("style","background-color: black; width: 8px; height: 8px; float:left;");
+					document.body.appendChild(boxs);
+
+					}
+					else
+					 {
+
+					boxs.setAttribute("style","background-color: white; width: 8px; height: 8px; float:left;");
+					document.body.appendChild(boxs);
+
+					}
+
+				}
+				
+
+
+			}
+		}
+	
+		
+	}
+	window.onload = example;
+	
+	
+	</script>
+<body>
+
+	
+
+</body>
+</html>

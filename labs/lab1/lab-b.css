@@ -1,0 +1,33 @@
+.screen{
+	float: left;
+	border-color: black;
+	border-style: solid;
+	border-width: 2px;
+	background-color: gray;
+	padding-bottom: 0.2%;
+	margin: 5%;
+	width: 90%;
+	
+}
+.cal{
+	border-color: black;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 12px;
+	padding-bottom: 5%;
+	margin: 30%;
+	background-color: blue;
+}
+
+p{
+	float: right;
+	font-size: 30px;
+}
+
+.button1{
+	width: 92%;
+	margin: 5%;
+	padding-right: 10%;
+
+
+}
