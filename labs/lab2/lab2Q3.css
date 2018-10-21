@@ -1,0 +1,28 @@
+.searchbar{
+    margin-top: 1%;
+}
+
+.input1{
+    width: 70%;
+}
+.input2{
+    width: 10%;
+    float: right;
+}
+.labels{
+    border-style: bold;
+    border-color: black;
+
+}
+.repo{
+    float: right;
+    width: 20%;
+    margin: 1%;
+    
+}
+
+.users{
+    float: left;
+    width: 20%;
+    margin: 1%;    
+}
