@@ -1,80 +1,68 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-        <script src="lab2Q3.js"></script>
-        <link rel="stylesheet" type="text/css" href="lab2Q3.css">
-
+    <meta charset="UTF-8">
+    <title>lab2</title>
+    <link rel="stylesheet" type="text/css" href="lab2Q3.css">
+    <script src="lab2Q3.js"></script>
 </head>
-<body>
-<div>
-    <div class="searchbar">
-    <form action="lab2Q3.JS">
-        <input class="input1" type="text" placeholder="username">
-        <input class="input2" type="submit" value="Submit" onclick="users()">
-    </form>
-    </div>
-    <div>
-    <h2>user Profile</h2>
-    <div class="users">
-        <div>
-            <img src="" alt="">
-           <!-- <img src="getPicture()" alt="">-->
-        </div> 
-        <div>
-            <div class="labels"> 
-            <label>name</label>
-            </div> 
-            <div>
-            <label>user</label>
-            </div> 
-            <div>
-            <label>Email</label>
-            </div> 
-            <div>
-            <label>Location</label>
-            </div> 
-            <div>
-            <label>Number of gists</label>
-            </div>
+<body >
+    <div id = "container">
+        <div id = "search">
+            <input id = "in" placeholder = "Username" type="text">
+
+            <button onclick = "getUser()">search</button>
+        </div>
+        <div id ="userspage">
+            <h2>User Profile</h2>
+            <table id="profileTable">
+                <tr>
+                    <td><img id = "image" src = "gitempty.PNG"></td>
+                </tr>
+                <tr>
+                    <td id ="name">name</td>
+                </tr>
+                <tr>
+                <td id ="user">User</td>
+            </tr>
+                <tr>
+                    <td id ="email">Email</td>
+                </tr>
+                <tr>
+                    <td id ="location">Location</td>
+                </tr>
+                <tr>
+                    <td id ="gist">Number of Gists</td>
+                </tr>
+
+            </table>
         </div>
 
+        <div id = "repo">
+            <h2 id = "repoName">User Repos</h2>
+            <table id="repoTable" >
+                <tr>
+                    <td id = "repo0">Name<br><br>Description</td>
+                </tr>
+                <tr>
+                    <td id = "repo1">Name<br><br>Description</td>
+                </tr>
+                <tr>
+                    <td id = "repo2">Name<br><br>Description</td>
+                </tr>
+                <tr>
+                    <td id = "repo3">Name<br><br>Description</td>
+                </tr>
+                <tr>
+                    <td id = "repo4">Name<br><br>Description</td>
+                </tr>
+                <tr>
+                    <td id = "repo5">Name<br><br>Description</td>
+                </tr>
+            </table>
 
+        </div>
 
     </div>
-    
-    <div  class="repo">
-            <h2>users repo</h2>
-            <div class="labels"> 
-            <label>name</label>
-            <label>Description</label>
-            </div> 
-            <div class="labels"> 
-            <label>name</label>
-            <label>Description</label>
-            </div> 
-            <div class="labels"> 
-            <label>name</label>
-            <label>Description</label>
-            </div>  
-            <div class="labels"> 
-            <label>name</label>
-            <label>Description</label>
-            </div>  
-            <div class="labels"> 
-            <label>name</label>
-            <label>Description</label>
-            </div> 
-            <div class="labels"> 
-            <label>name</label>
-            <label>Description</label>
-            </div> 
-    </div>
-    </div>
-</div>
-
-
-
 </body>
-
-
-
 </html>
